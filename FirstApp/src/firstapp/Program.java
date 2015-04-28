@@ -2,6 +2,7 @@ package firstapp;
 
 public class Program 
 {
+    Git github = new Git();
     public static void main(String[] args) 
     {
         Program obj = new Program();
@@ -12,7 +13,8 @@ public class Program
     {
         for (int i =0;i < 3; i++)
         {
-        System.out.println("My name is Barrey Allen");
+            System.out.println("My name is Barrey Allen");
+            github.git();
         }
         
     }
